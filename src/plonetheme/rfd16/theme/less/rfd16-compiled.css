@@ -4794,4 +4794,64 @@ body.template-logged_out #content-core .portletFooter {
 #search-filter input {
   margin-right: 0.5rem;
 }
+.documentFirstHeading {
+  border-bottom: none;
+}
+#isotope-filters {
+  clear: both;
+  width: 100%;
+}
+div.isotope-image {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+div.isotope-image > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+#isotope-filters .button-container h5 {
+  display: inline-block;
+  padding: 0 1em;
+}
+#isotope-filters .plone-button-group {
+  clear: both;
+}
+#isotope-grid {
+  position: relative;
+}
+#isotope-grid .vertical {
+  padding: 0 1em;
+  width: 100%;
+}
+#isotope-grid .vertical:hover {
+  background-color: #eee;
+}
+#isotope-grid .horizontal {
+  background-color: #FFF;
+  border: 1px solid black;
+  color: black;
+  margin: 1%;
+  padding: 1em;
+  text-align: center;
+  width: 47%;
+}
+#isotope-grid .horizontal:hover {
+  background-color: #999;
+}
+@media (min-width: 768px) {
+  #isotope-grid .horizontal {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  #isotope-grid .horizontal {
+    width: 30%;
+  }
+}
 /*# sourceMappingURL=++theme++plonetheme.rfd16/less/rfd16-compiled.css.map */
