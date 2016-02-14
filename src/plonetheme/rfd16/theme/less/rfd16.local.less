@@ -1,7 +1,29 @@
 .documentFirstHeading{
     border-bottom: none;
 }
-
+.event.summary {
+    max-width: 400px;
+    width: 400px;
+    list-style: none;
+    background-color: #E9DBF4;
+}
+.event.summary strong, .event.summary li > span {
+    display: inline;
+}
+.event.summary li.event-category > span {
+    display: block;
+}
+.rfd-headertext{
+position: absolute;
+margin-top: -7em;
+margin-left: 24em;
+}
+.rfd-socialmedia{
+    position: absolute;
+    margin-top: -7em;
+    margin-left: 38em;
+}
+.rfd-socialmedia img{padding-bottom:0.5em}
 #isotope-filters {
     clear: both;
     width: 100%;
@@ -28,6 +50,7 @@ div.isotope-image > img {
 #isotope-grid {
     position: relative;
 }
+#isotope-grid h2{font-size: 18px;}
 #isotope-grid .vertical {
     padding: 0 1em;
     width: 100%;
@@ -36,16 +59,16 @@ div.isotope-image > img {
     background-color: #eee;
 }
 #isotope-grid .horizontal {
-    background-color: #FFF;
-    border: 1px solid black;
-    color: black;
+    background-color: #F8F1FF;
+    border: none;
+    color: #17194B;
     margin: 1%;
     padding: 1em;
     text-align: center;
     width: 47%;
 }
 #isotope-grid .horizontal:hover {
-    background-color: #999;
+    background-color: #E9DBF4;
 }
 @media (min-width: 768px) {
 #isotope-grid .horizontal {

@@ -69,10 +69,10 @@ $(window).load(function(evt) {
                            filter_id string:filter-${filter_name};
                            filter_data python:filters[filter];
                            filter_label python:filter_data['label'];
-                           filter_values python:filter_data['values']">
+                           filter_values python:sorted(filter_data['values']);">
             <label for="${filter_id}">${filter_label}</label>
             <select id="${filter_id}" class="pat-select2" data-pat-select2="width:95%;minimumResultsForSearch:-1">
-              <option value="*">All</option>
+              <option value="*">Alle</option>
              <tal:option repeat="value filter_values">
               <option tal:define="val python:value[0];
                                   name python:value[1]"
@@ -118,9 +118,9 @@ $(window).load(function(evt) {
                     </a>
                   </tal:no-image>
                  <p class="pat-moment"
-   data-pat-moment="format:HH:mm dd DD MMMM YYYY">
+   data-pat-moment="format:dd DD MMMM YYYY HH:mm">
     ${python: item_start}
-</p>
+</p>                 <p class="discreet" tal:content="item/Description">[description]</p>
                 </article>
             </tal:definitions>
           </tal:repeat>
