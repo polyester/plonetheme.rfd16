@@ -4805,6 +4805,7 @@ body.template-logged_out #content-core .portletFooter {
 }
 #portal-footer img {
   padding-right: 10em;
+  padding-bottom: 2em;
 }
 .rfd-headertext {
   position: absolute;
