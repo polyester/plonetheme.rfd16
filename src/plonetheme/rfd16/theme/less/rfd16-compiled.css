@@ -4803,6 +4803,9 @@ body.template-logged_out #content-core .portletFooter {
 .event.summary li.event-category > span {
   display: block;
 }
+#portal-footer img {
+  padding-left: 10 em;
+}
 .rfd-headertext {
   position: absolute;
   margin-top: -7em;
